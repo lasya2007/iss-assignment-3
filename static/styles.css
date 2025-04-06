@@ -1,0 +1,200 @@
+/* ========== Header ========== */
+body {
+  font-size: 18px;
+  font-family: "Segoe UI";
+  line-height: 1.6;
+  margin: 0;
+  color: #000000;
+}
+
+img:hover {
+  transform: scale(1.08);
+  transition: transform 0.3s ease-in;
+}
+.header {
+  background-color: #f5e6d3;
+
+  text-align: center;
+  padding: 20px;
+}
+
+.header h2 {
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+.header a img {
+  width: 30px;
+  height: 30px;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
+/* ========== Personal Section ========== */
+
+.personal {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.about {
+  width: 50%;
+  padding: 20px;
+}
+
+.mypic img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ========== Birthplace Section ========== */
+
+.birthplace {
+  background-color: #f5e6d3;
+  padding: 40px 20px;
+}
+
+.birthplace h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.birthplace p {
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+}
+
+.birthplace-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: auto;
+}
+
+.birthplace-grid img {
+  width: 250px;
+  height: 170px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ========== Education Section ========== */
+
+.education {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.education h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.education-content {
+  display: inline-block;
+  text-align: left;
+  max-width: 900px;
+}
+
+.education-content ul,
+.education-content dl {
+  margin-left: 20px;
+}
+
+.education-content li {
+  margin-bottom: 10px;
+}
+
+/* ========== Skills Section ========== */
+
+.skills-section {
+  background-color: #f5e6d3;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.skills-header h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f5e6d3;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.skill-box {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 2px solid;
+}
+
+.skill-box h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.skill-box ul {
+  padding-left: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+/* Text input */
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text-box textarea {
+  width: 900px;
+  height: 500px;
+  margin-top: 40px;
+}
+
+.text-box button {
+  width: 200px;
+  height: 30px;
+  margin: 20px 0px;
+  background-color: rgb(170, 140, 8);
+  color: #f5e6d3;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.text-box button:active {
+  transform: scale(0.96);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.text-box button:hover {
+  background-color: rgb(123, 102, 5);
+}
+/* ========== Footer ========== */
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #f5e6d3;
+}

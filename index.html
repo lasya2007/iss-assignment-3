@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lasya Katari</title>
+        <link rel="stylesheet" href="static/styles.css" />
+        <script src="static/script.js"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h2 id="myname">Lasya Katari</h2>
+            <a id="linkedin" href="https://www.linkedin.com/in/lasya-katari/" target="_blank"><img src="static/linkedin-logo.webp" /></a>
+            <a id="github" href="https://github.com/lasya2007" target="_blank"><img src="static/Github-Logo.png" /></a>
+            <a id="email" href="mailto:sailasyakatari@gmail.com" target="_blank"><img src="static/email.png" /></a>
+            <a id="cv" href="static/cv.pdf" target="_blank">Download My Resume (PDF)</a>
+        </div>
+        <div class="personal">
+            <div class="about">
+                <p id="about-text">
+                    First-year student at IIIT Hyderabad, pursuing B.Tech in Computer Science and MS in Computing and Human Sciences. Enthusiastic about coding and intrigued by the complexities of human behavior—because not everything can be optimized with algorithms (yet). An avid writer capturing fleeting ideas in poetry and prose, a chess player with state and national-level experience, and a music enthusiast with years of training in Carnatic music. <br>Exploring the curious chaos of existence, learning to understand logic and embrace randomness.
+                </p>
+            </div>
+            <div class="mypic"><img id="pic-image" src="static/lasya.jpg" /></div>
+        </div>
+
+        <div class="birthplace">
+            <h2 id="hometown-heading">My Hometown</h2>
+            <p id="hometown-description">
+                I am from Rajamahendravaram, a picturesque city on the banks of the river Godavari in Andhra Pradesh, often referred to as the cultural capital of the state. It is celebrated for its rich heritage and is believed to be the birthplace of the Telugu language, with the esteemed poet Nannayya hailing from this region. The city is also home to the iconic Godavari Bridge—an engineering marvel that gracefully spans the river, symbolizing Rajahmundry's blend of history and modern progress.
+            </p>
+            <div class="birthplace-grid">
+                <img id="birthplace-image1" src="static/rajahmundry1.webp" />
+                <img id="birthplace-image2" src="static/rajahmundry2.jpg" />
+                <img id="birthplace-image3" src="static/rajahmundry3.jpg" />
+                <img id="birthplace-image4" src="static/rajahmundry4.jpeg" />
+            </div>
+        </div>
+
+        <div class="education">
+            <h2 id="education-heading">Education</h2>
+            <div class="education-content">
+                <ul>
+                    <li id="university-name">
+                        <strong>International Institute of Information Technology Hyderabad (IIITH)</strong>
+                        <dl>
+                            <dt id="university-course">B.Tech in Computer Science and MS in Computing and Human Sciences (2024–2029)</dt>
+                        </dl>
+                        <ul>
+                            <li id="university-cgpa">Current CGPA: 9.65</li>
+                            <li id="university-club">Member of Cyclorama - the Film and Theatre Club</li>
+                        </ul>
+                    </li>
+                    <li id="school-name">
+                        <strong>Sri Shirdi Sai Vidya Niketan</strong>
+                        <dl>
+                            <dt id="school-course">Class II - Class XII (Passed out in 2024)</dt>
+                        </dl>
+                        <ul>
+                            <li id="class12-percentage">Class XII - 97.8%</li>
+                            <li id="class10-percentage">Class X - 98.2%</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="interests-box">
+            <h2>Subjects of Interest</h2>
+            <ul>
+                <li>Psychology</li>
+                <li>Sociology</li>
+                <li>Computer Science</li>
+            </ul>
+          </div>
+        
+          <div class="extra-box">
+            <h2>Extracurriculars</h2>
+            <ul>
+            <li>Creative Writing</li>
+              <li>Chess player – State & National level</li>
+              <li>Trained Carnatic singer</li>
+            </ul>
+          </div>
+        </div> -->
+
+        <div class="skills-section">
+            <div class="skills-header">
+                <h2 id="skills-heading">Skills</h2>
+            </div>
+
+            <div class="skills-row">
+                <div class="skill-box advanced">
+                    <h3>Advanced</h3>
+                    <ul>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+
+                <div class="skill-box intermediate">
+                    <h3>Intermediate</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+
+                <div class="skill-box beginner">
+                    <h3>Beginner</h3>
+                    <ul>
+                        <li>Bash Scripting</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-box">
+            <textarea id="text-input" placeholder="Enter text here"></textarea>
+
+            <button onclick="analyzeText()">Analyze Text</button>
+        </div>
+
+        <div id="output"></div>
+
+        <div class="footer">
+            <p>Designed by Lasya with <3</p>
+        </div>
+    </body>
+</html>
