@@ -142,6 +142,7 @@ img:hover {
   text-align: center;
   background-color: #ffffff;
   border: 2px solid;
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .skill-box h3 {
