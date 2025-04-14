@@ -13,7 +13,6 @@ img:hover {
 }
 .header {
   background-color: #f5e6d3;
-
   text-align: center;
   padding: 20px;
 }
@@ -30,6 +29,25 @@ img:hover {
   vertical-align: middle;
 }
 
+
+#cv {
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: rgb(170,140,8);
+  color: #f5e6d3;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.1s ease-in-out;
+}
+#cv:active {
+  transform: scale(0.96);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+#cv:hover {
+  background-color: rgb(123, 102, 5);
+}
 /* ========== Personal Section ========== */
 
 .personal {
@@ -171,6 +189,12 @@ img:hover {
   margin-top: 40px;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
 .text-box button {
   width: 200px;
   height: 30px;
@@ -190,6 +214,45 @@ img:hover {
 }
 .text-box button:hover {
   background-color: rgb(123, 102, 5);
+}
+
+/* ========== Output ========== */
+#output {
+  background-color: #f5e6d3;
+  text-align: center;
+}
+#output h2 {
+  font-size: 28px;
+  padding-top: 20px;
+}
+#output .qs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f5e6d3;
+  margin: 0;
+  padding: 0;
+}
+.qs div {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 2px solid;
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.qs div h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.qs div ul {
+  padding-left: 20px;
+  text-align: left;
+  display: inline-block;
 }
 /* ========== Footer ========== */
 
