@@ -215,7 +215,10 @@ document.addEventListener('DOMContentLoaded', function() {
         else if(t=='A'){
             obj='link';
         }
-    
+        else if(t=='DIV'){
+            obj='background';
+        }
+        
         if(obj){
             console.log(time+', Click, '+obj);
         }
